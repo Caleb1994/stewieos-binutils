@@ -282,7 +282,8 @@ case ${generic_target} in
   i386-*-*nt*)				fmt=coff em=pe ;;
   i386-*-chaos)				fmt=elf ;;
   i386-*-rdos*)				fmt=elf ;;
-  i386-*-darwin*)			fmt=macho ;;
+  i386-*-stewieos*)   fmt=elf em=linux ;;
+  i386-*-darwin*)	  	fmt=macho ;;
 
   i860-*-*)				fmt=elf endian=little ;;
 
